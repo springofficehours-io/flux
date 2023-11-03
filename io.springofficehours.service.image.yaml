@@ -8,6 +8,7 @@ spec:
     metadata:
       annotations:
         autoscaling.knative.dev/max-scale: "1"
+        autoscaling.knative.dev/min-scale: "1"
     spec:
       containers:
         - image: dashaun/io.springofficehours.service.image:v0.0.20-x86_64
