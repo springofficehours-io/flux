@@ -12,4 +12,4 @@ spec:
         autoscaling.knative.dev/min-scale: "1"
     spec:
       containers:
-        - image: dashaun/io.springofficehours.service.image:v0.0.20-x86_64
+        - image: dashaun/io.springofficehours.service.image:v0.0.21-x86_64
